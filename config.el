@@ -55,3 +55,7 @@
 (fset 'eval-cell
    (kmacro-lambda-form [?? ?\\ ?n ?\\ ?n return ?j escape ?V ?/ ?\\ ?n ?\\ ?n return ?\C-c ?\C-r escape escape] 0 "%d"))
 (global-set-key (kbd "C-c c") 'eval-cell)
+
+(fset 'launch-python
+   (kmacro-lambda-form [?\M-x ?r ?u ?n ?- ?p ?y ?t ?h ?o ?n return escape ?  ?w ?k] 0 "%d"))
+(global-set-key (kbd "C-c y") 'launch-python)
