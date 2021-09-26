@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name:plot
+# key:<plt
+# --
+fig${1:num}, axs$1 = plt.subplots(num='fig$1')
+axs$1.set_title('${2:title}')
+axs$1.set_xlabel('${3:x}')
+axs$1.set_ylabel('${4:y}')
+$0

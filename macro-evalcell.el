@@ -1,0 +1,2 @@
+(fset 'eval-cell
+   (kmacro-lambda-form [?? ?\\ ?n ?\\ ?n return ?j escape ?V ?/ ?\\ ?n ?\\ ?n return ?\C-c ?\C-r escape escape] 0 "%d"))

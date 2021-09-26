@@ -1,0 +1,2 @@
+(fset 'evalcell
+   (kmacro-lambda-form [?/ ?\\ ?n ?\\ ?n return ?N ?j escape ?V ?/ ?\\ ?n ?\\ ?n return ?\C-c ?\C-r (down-mouse-1 (#<window 29 on TD1-organising-and-visualizing-data.py> 5897 (187 . 572) 27724462 nil 5897 (23 . 33) nil (35 . 11) (8 . 17))) (mouse-1 (#<window 29 on TD1-organising-and-visualizing-data.py> 5897 (187 . 572) 27724564 nil 5897 (23 . 33) nil (35 . 11) (8 . 17))) escape] 0 "%d"))

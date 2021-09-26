@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name:imports
+# key:<scimp
+# --
+\"\"\"
+${1:whatisthisthing}
+\"\"\"
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+#Set plot style
+plt.rcParams.update({
+    "lines.linewidth": 2,
+    "axes.grid": True,
+    #"text.usetex": True,
+    #"font.family": "serif",
+    })
+
+$0

@@ -1,0 +1,25 @@
+# -*- mode: snippet -*-
+# name:subplots
+# key:<plts
+# --
+grdspec = {'hspace': 0.5, 'wspace':0.5}
+fig${1:num}, axs$1 = plt.subplots(${2:row},${3:cols}, num='fig$1', gridspec_kw=grdspec)
+fig$1.suptitle('${4:fig-title}')
+
+axs$1[${5:0,0}].set_title('${6:axe-title}')
+axs$1[$5].set_xlabel('${7:x}')
+axs$1[$5].set_ylabel('${8:y}')
+
+axs$1[${9:0,0}].set_title('${10:axe-title}')
+axs$1[$9].set_xlabel('${11:$7}')
+axs$1[$9].set_ylabel('${12:$8}')
+${13:
+axs$1[${14:0,0}].set_title('${15:axe-title}')
+axs$1[$14].set_xlabel('${16:$7}')
+axs$1[$14].set_ylabel('${17:$8}')
+}${18:
+axs$1[${19:0,0}].set_title('${20:axe-title}')
+axs$1[$19].set_xlabel('${21:$7}')
+axs$1[$19].set_ylabel('${22:$8}')
+}
+$0
